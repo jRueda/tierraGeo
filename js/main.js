@@ -18,7 +18,7 @@ function init() {
     scene.add(sol);
  
     /* ---------- GEOMETRIA --------------*/
-    var geoTierra = new THREE.SphereGeometry( 10, 64, 64);
+    var geoTierra = new THREE.SphereGeometry( 10, 32, 32);
     var txTierra = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('images/earth.jpg') } );
  
     meshTierra = new THREE.Mesh( geoTierra, txTierra );
